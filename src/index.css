@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 10+ 'px';
+  /*font-family: Arial, Helvetica, sans-serif;*/
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*ALL CONTENT STYLE */
+div.allcontent{
+  position: relative;
+left: 0;
+top: 0;
+width: 100%;
+
+height: 80%;
+
+text-align: center;
+
+}
+
+/*BACKGROUND IMAGE*/
+div.auth-wrapper{
+  /*background-image: url("%PUBLIC_URL%/assets/images/homemade_background.jpg");*/
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}
+/***************/
+
+
+
+/*FOOTER STYLE */
+.footer {
+position: relative;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color:white;
+height: 20%;
+text-align: center;
+opacity: 0.9;
+}
+
+div.footer-div{
+  text-align: center;
+}
+/*END FOOTER STYLE */
+
+/*LOGIN FORM STYLE */
+.box{
+  width: 300+ 'px';
+  padding: 40+ 'px';
+  position: absolute;
+  top: 50%;
+
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20+ 'px' auto;
+  text-align: center;
+  border: 2+ 'px' solid #3498db;
+  padding: 14+ 'px' 10+ 'px';
+  width: 200+ 'px';
+  outline: none;
+  color: white;
+  border-radius: 24+ 'px';
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280+ 'px';
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20+ 'px' auto;
+  text-align: center;
+  border: 2+ 'px' solid #2ecc71;
+  padding: 14+ 'px' 40+ 'px';
+  outline: none;
+  color: white;
+  border-radius: 24+ 'px';
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
+}
+/*END LOGIN FORM STYLE*/
+
+div.middle-content{
+  height: 80%;
+}
+
+
+/*CONTACT US STYLE */
+div.contactus{
+  text-align: center;
+}
+
+
+/*STYLE TEXT*/
+label{
+  color: white;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h6.h6-cart{
+  color: black;
+  text-align: center;
+ 
+
+}
+
+h5.h5-cart{
+  color: black;
+  text-align: left;
+  opacity: 0.5;
+}
+
+h6.h6-prop{
+  color: black;
+  text-align: right;
+ 
+
+}
+
+h5.h5-prop{
+  color: black;
+  text-align: right;
+  opacity:  0.7;
+}
+p{
+  color: white;
+  font-size: 10 px;
+  background-color: black;
+  width: 320px;
+  opacity:  0.7;
+  text-align: center;
+  margin: 35.5%;
+
+}
+
+div.home{
+  color: #eee;
+}
+h2.h2Contact{
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  margin-left: 30%;
+  /*margin-right: 50%;*/
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+}
+h2.h2About{
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  /*margin-right: 50%;*/
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}
+/*table*/
+td, th{
+  color: black;
+  background-color:whitesmoke ;
+}
+tr{
+  background-color:whitesmoke ;
+  opacity: 0.9;
+}
+/***ERROR*/
+h5.error{
+  color: rgb(243, 23, 34);
+  font-family: cursive;
+  background-color: black;
+  opacity: 0.7;
+ 
+}
+/***************/
+
+
+div.auth-inner{
+  margin-bottom: 100px;
+  margin-top: 0px;
+}
+* {box-sizing: border-box;}
+
+.input-containercontactus {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+div.iconcontactus {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.input-fieldcontactus {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-fieldcontactus:focus {
+  border: 2px solid rgb(7, 7, 7);
+}
+
+/* Set a style for the submit button */
+.btncontactus{
+  
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.7;
+  
+}
+
+.btncontactus:hover {
+  opacity: 1;
+  
+}
+form.contactus{
+  max-width:500px;
+  margin:auto;
+ 
+}
+textarea.contactus{
+  height:200px;
+  width: 100%;
+  padding: 10px;
+  
+}
+/*************/
+
+/**Decoration product style*/
+body {
+  background: #eee
+}
+
+.ratings i {
+  font-size: 16px;
+  color: red
+}
+
+.strike-text {
+  color: red;
+  text-decoration: line-through
+}
+
+.product-image {
+  width: 100%
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 3px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block
+}
+
+.spec-1 {
+  color: #938787;
+  font-size: 15px
+}
+
+h5 {
+  font-weight: 400
+}
+
+.para {
+  font-size: 16px
+}
+/**************************/
